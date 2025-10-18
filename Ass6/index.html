@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 6</title>
+</head>
+<body>
+    <h1>Part 1 — Introduction to JavaScript</h1>
+    <h2>Task 0</h2>
+    <p>Check the console</p><br><br>
+    
+    <h2>Task 1</h2>
+    <p>Check the console</p>
+    <hr>
+    <h1>Part 2 - DOM Manipulation</h1>
+    <h2>Task 2</h2>
+    <p id="text">Hello World!</p>
+    <button onclick="changeText()">Change Text</button>
+    
+    <h2>Task 3</h2>
+    <div id="box">BOX</div><br>
+    <button onclick="changeColor()">Change Color</button>
+    <button onclick="changeFont()">Change Font Size</button>
+    
+
+    <h2>Task 4</h2>
+    <ul id="list">
+        <li>Item 1</li>
+    </ul>
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Item</button>
+    <hr>
+
+    <h1>Part 3 — Events</h1>
+    <h2>Task 5</h2>
+    <div id="colorBox" style="width:100px; height:100px; background:lightgray;"></div>
+    
+    <h2>Task 6</h2>
+    <input id="textInput" placeholder="Type something">
+    <p id="display"></p>
+    
+    <h2>Task 7</h2>
+    <input id="num1" type="number" placeholder="Number 1">
+    <input id="num2" type="number" placeholder="Number 2">
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="calculate('*')">*</button>
+    <button onclick="calculate('/')">/</button>
+    <p id="result"></p>
+
+    <hr>
+
+    <h1>Part 4 — Mini Project: To-Do List</h1>
+    <h2>Task 8</h2>
+    <h3>My To-Do List</h3>
+    <div class="container">
+        <div class="todo">
+            <h2>To-do list</h2>
+            <ul id="taskList">
+                
+            </ul>
+        </div>
+
+        <div class="add-task">
+            <h2>Add new task</h2>
+            <input id="title" placeholder="* Title">
+            <textarea id="desc" placeholder="* Description"></textarea>
+            <button id="addBtn">Add task</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
